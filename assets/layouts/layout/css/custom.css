@@ -1,0 +1,196 @@
+/* here you can put your own css to customize and override the theme */
+
+.text-truncate{ 
+	width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dashboard-stat .details .fre-title {
+    text-align: right;
+    font-size: 16px;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #fff;
+}
+.litno{
+	margin: 5px 0;
+}
+
+/* NEWS SIDE */
+.page-quick-sidebar-wrapper{
+	background: #02A5C1; color: #fff;}
+.page-quick-sidebar-wrapper .page-quick-sidebar {
+    background: #F3D302;}
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li > a {
+	border-bottom: 3px solid rgba(243, 86, 93, 0.3);}
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li.active > a, .page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li:hover > a {
+	border-bottom: 3px solid #0B4958;}
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu {
+    background: #36424c;
+    box-shadow: 5px 5px rgba(97, 117, 135, 0.1);}
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu:before {
+	border-bottom: 7px solid #36424c;}
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu:after {
+	border-bottom: 7px solid #36424c;}
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu > li > a {
+    color: #99a8b5; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu > li > a > i {
+  color: #93a3b1; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu > li:hover > a {
+background: #3d4a55;
+color: #99a8b5; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu > li:hover > a > i {
+  color: #9babb8; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu > li.active > a {
+	background: #38444f;
+	color: #99a8b5; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li .dropdown-menu > li.divider {
+	background-color: #3d4a55; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .nav-tabs > li.open > a.dropdown-toggle {
+  border-bottom: 3px solid #f3565d;
+  background: none; color: #90a1af; } 
+.page-quick-sidebar-wrapper .page-quick-sidebar .list-heading {
+  color: #F3D302; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .list-items > li {
+    border-bottom-color: #0CB6D3;}
+.page-quick-sidebar-wrapper .page-quick-sidebar .list-items > li:hover {
+  background: #15677B; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-item .page-quick-sidebar-nav .page-quick-sidebar-back-to-list {
+    color: #fff;
+}
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-users .media-list .media .media-body .media-heading-sub {
+    color: #F3D302; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-users .media-list .media .media-body .media-heading-small {
+  font-size: 10px;
+  color: #66DEF3; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-user .page-quick-sidebar-chat-user-messages .post .body {
+    color: #c3c3c3;}
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-user .page-quick-sidebar-chat-user-messages .post .avatar {
+    width: 45.71429px;}
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-user .page-quick-sidebar-chat-user-messages .post .name {
+    color: #8496a7; }
+ .page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-user .page-quick-sidebar-chat-user-messages .post .datetime {
+    font-size: 12px; color: #8496a7; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-user .page-quick-sidebar-chat-user-messages .post .message {
+	color: #90a1af; background: #0B4958; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-user .page-quick-sidebar-chat-user-messages .post.in .message .arrow {
+    border-right-color: #0B4958; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-chat .page-quick-sidebar-chat-user .page-quick-sidebar-chat-user-messages .post.out .message .arrow {
+    border-left-color: #0B4958; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-alerts .page-quick-sidebar-alerts-list .feeds li a {
+    color: #7e91a2; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-alerts .page-quick-sidebar-alerts-list .feeds li a .desc {
+    text-decoration: none;
+    color: #fff; }
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-alerts .page-quick-sidebar-alerts-list .feeds{
+	color: #fff;
+}
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-alerts .page-quick-sidebar-alerts-list .feeds li .desc {
+	color: #fff;	
+}
+.page-quick-sidebar-wrapper .page-quick-sidebar .page-quick-sidebar-alerts .page-quick-sidebar-alerts-list .feeds li a .date {
+    color: #66DEF3; }
+
+.page-quick-sidebar-wrapper .page-quick-sidebar .tab-content{
+	background: #02A5C1;
+}
+
+.margin-top30{
+	margin-top: 30px;
+}
+
+/* TOP NEWS */
+.apd-top-news{
+	margin-bottom: 40px;
+}
+.apd-chart-box{
+	background: #ddd;
+}
+
+/* MANFAAT */
+.manfaat-wrapper{
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-bottom: 40px;
+	background: #ACE5EF;
+	padding: 20px 20px 40px 20px;
+}
+.manfaat-wrapper h1{
+	color: #0E525A;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.manfaat-box{
+	text-align: center;
+	color: #0B2234;
+	background: #D3F9FF;
+	margin-bottom: 20px;
+}
+.manfaat-box h3{
+	color: #fff;
+	margin: 0;
+	padding: 10px 0;
+	background: #F3D302;
+}
+.manfaat-box .des{
+	padding: 10px;
+}
+
+/* REKAP BOX */
+.apd-rekap-box{
+	
+}
+
+.panel-info{
+	border-color: #02A5C1;
+}
+.panel-info>.panel-heading {
+    color: #fff;
+    background-color: #02A5C1;
+    border-color: #02A5C1;
+}
+
+h3.rekap-title{
+	padding: 22px 0;
+	margin: 0 0 15px 0;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	border-top: 1px solid #e7ecf1;
+	border-bottom: 1px solid #e7ecf1;
+}
+
+/* NEWSPAPER */
+.news-wrapper{
+	padding: 40px 0;
+}
+.news-wrapper h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.apd-news-box{
+	margin-bottom: 30px;
+}
+.apd-more{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+/* BOTTOM AREA */
+.bottom-wrapper{
+	color: #fff;
+	padding: 20px 0;
+}
+.bottom-wrapper a{
+	color: #F3D302;
+}
+.bottom-widget{
+	margin-bottom:20px;
+}
+
+.bottom-widget h3{
+	font-size: 21px;
+}
