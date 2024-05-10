@@ -12,6 +12,9 @@
 .mb-0{
 	margin-bottom: 0 !important;
 }
+.mb-40{
+	margin-bottom: 40px;
+}
 .mt-1{
 	margin-top: 15px !important;
 }
@@ -576,6 +579,17 @@ h3.rekap-title{
 }
 .list-group-item {
 	    font-size: 12px!important;
+	}
+	
+	/* portlet */
+	.portlet.box {
+		border: none!important;
+    }
+	.portlet.box>.portlet-title {
+		padding: 5px 10px;
+	}
+	.jamali-spacer{
+		border-color: #62d2e6;
 	}
 
 /* MONITOR SERVER */

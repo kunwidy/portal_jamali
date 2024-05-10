@@ -1496,7 +1496,7 @@ Page content
 /* Page breadcrumb */
 .page-bar {
   padding: 0px;
-  background-color: #FFF200;
+  background-color: #74e2ec;
   margin-bottom: 25px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -1548,7 +1548,7 @@ Page content
         box-shadow: none !important; }
   .page-content-white .page-bar,
   .page-container-bg-solid .page-bar {
-    background-color: #FFFECC;
+    background-color: #99eff7;
     position: relative;
     padding: 0px 20px;
     margin: -25px -20px 0 -20px; }
@@ -1590,7 +1590,7 @@ Page content
 .page-content {
   margin-top: 0px;
   padding: 0px;
-  background-color: #F9F7F7; }
+  background-color: #E7F6F9; }
   .page-container-bg-solid .page-content {
     background: #eef1f5; }
   .page-content-white .page-content .page-bar {
