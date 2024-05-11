@@ -5,9 +5,9 @@
         bold: 'Tučné',
         italic: 'Kurzíva',
         underline: 'Podtržené',
+        strikethrough: 'Přeškrtnuté',
         clear: 'Odstranit styl písma',
         height: 'Výška řádku',
-        strikethrough: 'Přeškrtnuté',
         size: 'Velikost písma'
       },
       image: {
@@ -23,13 +23,6 @@
         selectFromFiles: 'Vybrat soubor',
         url: 'URL obrázku'
       },
-      video: {
-        video: 'Video',
-        videoLink: 'Odkaz videa',
-        insert: 'Vložit video',
-        url: 'URL videa?',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion nebo Youku)'
-      },
       link: {
         link: 'Odkaz',
         insert: 'Vytvořit odkaz',
@@ -38,6 +31,13 @@
         textToDisplay: 'Zobrazovaný text',
         url: 'Na jaké URL má tento odkaz vést?',
         openInNewWindow: 'Otevřít v novém okně'
+      },
+      video: {
+        video: 'Video',
+        videoLink: 'Odkaz videa',
+        insert: 'Vložit video',
+        url: 'URL videa?',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion nebo Youku)'
       },
       table: {
         table: 'Tabulka'

@@ -6,12 +6,6 @@
 {
     var hasTouch = 'ontouchstart' in window;
 
-    if (navigator.appVersion.indexOf("Win")!=-1){
-        var hasTouch = false;
-    } else {
-        var hasTouch = 'ontouchstart' in window;
-    }
-
     /**
      * Detect CSS pointer-events property
      * events are normally disabled on the dragging element to avoid conflicts

@@ -5,12 +5,9 @@
         bold: 'Kalın',
         italic: 'İtalik',
         underline: 'Altı çizili',
+        strikethrough: 'Üstü çizili',
         clear: 'Temizle',
         height: 'Satır yüksekliği',
-        name: 'Yazı Tipi',
-        strikethrough: 'Üstü çizili',
-        subscript: 'Alt Simge',
-        superscript: 'Üst Simge',
         size: 'Yazı tipi boyutu'
       },
       image: {
@@ -22,21 +19,9 @@
         floatLeft: 'Sola hizala',
         floatRight: 'Sağa hizala',
         floatNone: 'Hizalamayı kaldır',
-        shapeRounded: 'Şekil: Yuvarlatılmış Köşe',
-        shapeCircle: 'Şekil: Daire',
-        shapeThumbnail: 'Şekil: K.Resim',
-        shapeNone: 'Şekil: Yok',
         dragImageHere: 'Buraya sürükleyin',
         selectFromFiles: 'Dosya seçin',
-        url: 'Resim bağlantısı',
-        remove: 'Resimi Kaldır'
-      },
-      video: {
-        video: 'Video',
-        videoLink: 'Video bağlantısı',
-        insert: 'Video ekle',
-        url: 'Video bağlantısı?',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion veya Youku)'
+        url: 'Resim bağlantısı'
       },
       link: {
         link: 'Bağlantı',
@@ -44,8 +29,14 @@
         unlink: 'Bağlantıyı kaldır',
         edit: 'Bağlantıyı düzenle',
         textToDisplay: 'Görüntülemek için',
-        url: 'Bağlantı adresi?',
-        openInNewWindow: 'Yeni pencerede aç'
+        url: 'Bağlantı adresi?'
+      },
+      video: {
+        video: 'Video',
+        videoLink: 'Video bağlantısı',
+        insert: 'Video ekle',
+        url: 'Video bağlantısı?',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion veya Youku)'
       },
       table: {
         table: 'Tablo'

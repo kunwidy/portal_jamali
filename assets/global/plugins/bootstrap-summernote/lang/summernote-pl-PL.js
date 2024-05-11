@@ -5,10 +5,10 @@
         bold: 'Pogrubienie',
         italic: 'Pochylenie',
         underline: 'Podkreślenie',
+        strikethrough: 'Przekreślenie',
         clear: 'Usuń formatowanie',
         height: 'Interlinia',
         name: 'Czcionka',
-        strikethrough: 'Przekreślenie',
         size: 'Rozmiar'
       },
       image: {
@@ -20,24 +20,10 @@
         floatLeft: 'Po lewej',
         floatRight: 'Po prawej',
         floatNone: 'Równo z tekstem',
-        shapeRounded: 'Kształt: zaokrąglone',
-        shapeCircle: 'Kształt: okrąg',
-        shapeThumbnail: 'Kształt: miniatura',
-        shapeNone: 'Kształt: brak',
-        dragImageHere: 'Przeciągnij grafikę lub tekst tutaj',
-        dropImage: 'Przeciągnij grafikę lub tekst',
+        dragImageHere: 'Przeciągnij grafikę tutaj',
         selectFromFiles: 'Wybierz z dysku',
-        maximumFileSize: 'Limit wielkości pliku',
-        maximumFileSizeError: 'Przekroczono limit wielkości pliku.',
-        url: 'Adres URL grafiki',
+        url: 'URL grafiki',
         remove: 'Usuń grafikę'
-      },
-      video: {
-        video: 'Wideo',
-        videoLink: 'Adres wideo',
-        insert: 'Wstaw wideo',
-        url: 'Adres wideo',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, lub Youku)'
       },
       link: {
         link: 'Odnośnik',
@@ -45,8 +31,15 @@
         unlink: 'Usuń odnośnik',
         edit: 'Edytuj',
         textToDisplay: 'Tekst do wyświetlenia',
-        url: 'Na jaki adres URL powinien przenosić ten odnośnik?',
+        url: 'Na jaki URL powinien przenosić ten link?',
         openInNewWindow: 'Otwórz w nowym oknie'
+      },
+      video: {
+        video: 'Wideo',
+        videoLink: 'Adres wideo',
+        insert: 'Wstaw wideo',
+        url: 'Adres wideo',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, lub Youku)'
       },
       table: {
         table: 'Tabela'
@@ -73,7 +66,7 @@
       options: {
         help: 'Pomoc',
         fullscreen: 'Pełny ekran',
-        codeview: 'Źródło'
+        codeview: 'Zródło'
       },
       paragraph: {
         paragraph: 'Akapit',
@@ -95,13 +88,12 @@
         resetToDefault: 'Domyślne'
       },
       shortcut: {
-        shortcuts: 'Skróty klawiaturowe',
+        shortcuts: 'Skróty klawiszone',
         close: 'Zamknij',
         textFormatting: 'Formatowanie tekstu',
         action: 'Akcja',
         paragraphFormatting: 'Formatowanie akapitu',
-        documentStyle: 'Styl dokumentu',
-        extraKeys: 'Dodatkowe klawisze'
+        documentStyle: 'Styl dokumentu'
       },
       history: {
         undo: 'Cofnij',

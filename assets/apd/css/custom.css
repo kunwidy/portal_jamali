@@ -12,6 +12,9 @@
 .mb-0{
 	margin-bottom: 0 !important;
 }
+.mb-10{
+	margin-bottom: 10px;
+}
 .mb-40{
 	margin-bottom: 40px;
 }
@@ -295,9 +298,7 @@ color: #99a8b5; }
 }
 
 /* REKAP BOX */
-.apd-rekap-box{
-	
-}
+
 
 .panel-info{
 	border-color: #02A5C1;
@@ -553,8 +554,7 @@ h3.rekap-title{
 	max-height: 98px;
 	margin-top: 20px;
 }
-.logo-bumn1{
-}
+
 .logo-bumn1 img{
 	margin-top: 10px;
 	max-width: 120px;

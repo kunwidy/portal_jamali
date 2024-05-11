@@ -1,0 +1,169 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+
+.text-yellow{
+	color: #F6FF3C;
+}
+
+.green.btn {
+    color: #FFFFFF;
+    background-color: #079FAD;
+    border-color: "";
+}
+
+/* Button */
+.green.btn {
+  color: #FFFFFF;
+  background-color: #079FAD;
+  border-color: "";
+}
+.green.btn:hover, .green.btn:focus, .green.btn:active, .green.btn.active {
+  color: #FFFFFF;
+  background-color: #0B8C97;
+}
+.open .green.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #0B8C97;
+}
+.green.btn:active, .green.btn.active {
+  background-image: none;
+  background-color: #267b34;
+}
+.green.btn:active:hover, .green.btn.active:hover {
+  background-color: #298337;
+}
+.open .green.btn.dropdown-toggle {
+  background-image: none;
+}
+.green.btn.disabled, .green.btn.disabled:hover, .green.btn.disabled:focus, .green.btn.disabled:active, .green.btn.disabled.active, .green.btn[disabled], .green.btn[disabled]:hover, .green.btn[disabled]:focus, .green.btn[disabled]:active, .green.btn[disabled].active, fieldset[disabled] .green.btn, fieldset[disabled] .green.btn:hover, fieldset[disabled] .green.btn:focus, fieldset[disabled] .green.btn:active, fieldset[disabled] .green.btn.active {
+  background-color: #079FAD;
+}
+.green.btn .badge {
+  color: #079FAD;
+  background-color: #FFFFFF;
+}
+
+/*LONCENG*/
+.lonceng{
+	text-align: center;
+	background: #d84a38;
+	color: #F6FF3C;
+	text-align: center;
+	margin: 10px;
+	padding: 30px 10px;
+	border-radius: 4px;
+}
+
+.lon-icon{
+	padding-top: 30px;
+}
+
+.font-big{
+	font-size: 50px;
+}
+
+.ringing-bell {
+   margin-top: 30px;
+   margin-bottom: 20px;
+    transition: translate(-50%, -50%)
+}
+
+.faa-ring {
+    color: #FFD206;
+}
+
+
+@keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg)
+    }
+
+    2% {
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+
+    4% {
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    6% {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    8% {
+        -webkit-transform: rotate(-22deg);
+        -ms-transform: rotate(-22deg);
+        transform: rotate(-22deg)
+    }
+
+    10% {
+        -webkit-transform: rotate(22deg);
+        -ms-transform: rotate(22deg);
+        transform: rotate(22deg)
+    }
+
+    12% {
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        transform: rotate(-18deg)
+    }
+
+    14% {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg)
+    }
+
+    16% {
+        -webkit-transform: rotate(-12deg);
+        -ms-transform: rotate(-12deg);
+        transform: rotate(-12deg)
+    }
+
+    18% {
+        -webkit-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        transform: rotate(12deg)
+    }
+
+    20% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+}
+
+.faa-ring.animated,
+.faa-ring.animated-hover:hover,
+.faa-parent.animated-hover:hover>.faa-ring {
+    -webkit-animation: ring 2s ease infinite;
+    animation: ring 2s ease infinite;
+    transform-origin-x: 50%;
+    transform-origin-y: 0px;
+    transform-origin-z: initial
+}

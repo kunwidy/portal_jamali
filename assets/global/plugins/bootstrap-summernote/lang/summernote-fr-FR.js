@@ -5,12 +5,12 @@
         bold: 'Gras',
         italic: 'Italique',
         underline: 'Souligné',
+        strikethrough: 'Barré',
+        superscript: 'Exposant',
+        subscript: 'Indicé',
         clear: 'Effacer la mise en forme',
         height: 'Interligne',
         name: 'Famille de police',
-        strikethrough: 'Barré',
-        superscript: 'Exposant',
-        subscript: 'Indice',
         size: 'Taille de police'
       },
       image: {
@@ -22,24 +22,10 @@
         floatLeft: 'Aligné à gauche',
         floatRight: 'Aligné à droite',
         floatNone: 'Pas d\'alignement',
-        shapeRounded: 'Forme: Rectangle arrondie',
-        shapeCircle: 'Forme: Cercle',
-        shapeThumbnail: 'Forme: Vignette',
-        shapeNone: 'Forme: Aucune',
-        dragImageHere: 'Faites glisser une image ou un texte dans ce cadre',
-        dropImage: 'Lachez l\'image ou le texte',
+        dragImageHere: 'Faites glisser une image avec la souris dans ce cadre',
         selectFromFiles: 'Choisir un fichier',
-        maximumFileSize: 'Taille de fichier maximale',
-        maximumFileSizeError: 'Taille maximale du fichier dépassée',
         url: 'URL de l\'image',
         remove: 'Supprimer l\'image'
-      },
-      video: {
-        video: 'Vidéo',
-        videoLink: 'Lien vidéo',
-        insert: 'Insérer une vidéo',
-        url: 'URL de la vidéo',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ou Youku)'
       },
       link: {
         link: 'Lien',
@@ -50,11 +36,18 @@
         url: 'URL du lien',
         openInNewWindow: 'Ouvrir dans une nouvelle fenêtre'
       },
+      video: {
+        video: 'Vidéo',
+        videoLink: 'Lien vidéo',
+        insert: 'Insérer une vidéo',
+        url: 'URL de la vidéo',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ou Youku)'
+      },
       table: {
         table: 'Tableau'
       },
       hr: {
-        insert: 'Insérer une ligne horizontale'
+        insert: 'Insérer une ligne horizontale de séparation'
       },
       style: {
         style: 'Style',
@@ -102,8 +95,7 @@
         textFormatting: 'Mise en forme du texte',
         action: 'Action',
         paragraphFormatting: 'Mise en forme des paragraphes',
-        documentStyle: 'Style du document',
-        extraKeys: 'Touches supplémentaires'
+        documentStyle: 'Style du document'
       },
       history: {
         undo: 'Annuler la dernière action',

@@ -5,12 +5,12 @@
         bold: 'Полужирный',
         italic: 'Курсив',
         underline: 'Подчёркнутый',
-        clear: 'Убрать стили шрифта',
-        height: 'Высота линии',
-        name: 'Шрифт',
         strikethrough: 'Зачёркнутый',
         subscript: 'Нижний индекс',
         superscript: 'Верхний индекс',
+        clear: 'Убрать стили шрифта',
+        height: 'Высота линии',
+        name: 'Шрифт',
         size: 'Размер шрифта'
       },
       image: {
@@ -22,22 +22,10 @@
         floatLeft: 'Расположить слева',
         floatRight: 'Расположить справа',
         floatNone: 'Расположение по-умолчанию',
-        shapeRounded: 'Форма: Закругленная',
-        shapeCircle: 'Форма: Круг',
-        shapeThumbnail: 'Форма: Миниатюра',
-        shapeNone: 'Форма: Нет',
         dragImageHere: 'Перетащите сюда картинку',
-        dropImage: 'Перетащите картинку',
         selectFromFiles: 'Выбрать из файлов',
         url: 'URL картинки',
         remove: 'Удалить картинку'
-      },
-      video: {
-        video: 'Видео',
-        videoLink: 'Ссылка на видео',
-        insert: 'Вставить видео',
-        url: 'URL видео',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion или Youku)'
       },
       link: {
         link: 'Ссылка',
@@ -47,6 +35,13 @@
         textToDisplay: 'Отображаемый текст',
         url: 'URL для перехода',
         openInNewWindow: 'Открывать в новом окне'
+      },
+      video: {
+        video: 'Видео',
+        videoLink: 'Ссылка на видео',
+        insert: 'Вставить видео',
+        url: 'URL видео',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion или Youku)'
       },
       table: {
         table: 'Таблица'
@@ -100,7 +95,7 @@
         textFormatting: 'Форматирование текста',
         action: 'Действие',
         paragraphFormatting: 'Форматирование параграфа',
-        documentStyle: 'Стиль документа',
+        documentStyle: 'Стиль документа', 
         extraKeys: 'Дополнительные комбинации'
       },
       history: {

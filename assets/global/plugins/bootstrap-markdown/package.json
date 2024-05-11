@@ -1,9 +1,8 @@
 {
   "name": "bootstrap-markdown",
   "filename": "js/bootstrap-markdown.js",
-  "version": "2.9.0",
+  "version": "2.7.0",
   "description": "A bootstrap plugin for markdown editing",
-  "license" : "Apache-2.0",
   "homepage": "https://github.com/toopay/bootstrap-markdown",
   "keywords": [
     "twitter",
@@ -15,8 +14,8 @@
     "name": "Taufan Aditya",
     "web": "https://github.com/toopay"
   }],
-  "repository": {
+  "repositories": [{
     "type": "git",
     "url": "https://github.com/toopay/bootstrap-markdown.git"
-  }
+  }]
 }

@@ -1,5 +1,5 @@
 /*
- * jQuery File Upload Plugin
+ * jQuery File Upload Plugin 5.42.0
  * https://github.com/blueimp/jQuery-File-Upload
  *
  * Copyright 2010, Sebastian Tschan
@@ -10,7 +10,7 @@
  */
 
 /* jshint nomen:false */
-/* global define, require, window, document, location, Blob, FormData */
+/* global define, window, document, location, Blob, FormData */
 
 (function (factory) {
     'use strict';
@@ -20,12 +20,6 @@
             'jquery',
             'jquery.ui.widget'
         ], factory);
-    } else if (typeof exports === 'object') {
-        // Node/CommonJS:
-        factory(
-            require('jquery'),
-            require('./vendor/jquery.ui.widget')
-        );
     } else {
         // Browser globals:
         factory(window.jQuery);
@@ -277,8 +271,7 @@
             // The following are jQuery ajax settings required for the file uploads:
             processData: false,
             contentType: false,
-            cache: false,
-            timeout: 0
+            cache: false
         },
 
         // A list of options that require reinitializing event listeners and/or
@@ -984,10 +977,7 @@
                 fileSet,
                 i,
                 j = 0;
-            if (!filesLength) {
-                return false;
-            }
-            if (limitSize && files[0].size === undefined) {
+            if (limitSize && (!filesLength || files[0].size === undefined)) {
                 limitSize = undefined;
             }
             if (!(options.singleFileUploads || limit || limitSize) ||
@@ -1046,19 +1036,13 @@
 
         _replaceFileInput: function (data) {
             var input = data.fileInput,
-                inputClone = input.clone(true),
-                restoreFocus = input.is(document.activeElement);
+                inputClone = input.clone(true);
             // Add a reference for the new cloned file input to the data argument:
             data.fileInputClone = inputClone;
             $('<form></form>').append(inputClone)[0].reset();
             // Detaching allows to insert the fileInput on another form
             // without loosing the file input value:
             input.after(inputClone).detach();
-            // If the fileInput had focus before it was detached,
-            // restore focus to the inputClone.
-            if (restoreFocus) {
-                inputClone.focus();
-            }
             // Avoid memory leaks with the detached file input:
             $.cleanData(input.unbind('remove'));
             // Replace the original file input element in the fileInput
@@ -1354,19 +1338,15 @@
         _initDataAttributes: function () {
             var that = this,
                 options = this.options,
-                data = this.element.data();
+                clone = $(this.element[0].cloneNode(false));
             // Initialize options set via HTML5 data-attributes:
             $.each(
-                this.element[0].attributes,
-                function (index, attr) {
-                    var key = attr.name.toLowerCase(),
-                        value;
-                    if (/^data-/.test(key)) {
-                        // Convert hyphen-ated key to camelCase:
-                        key = key.slice(5).replace(/-[a-z]/g, function (str) {
-                            return str.charAt(1).toUpperCase();
-                        });
-                        value = data[key];
+                clone.data(),
+                function (key, value) {
+                    var dataAttributeName = 'data-' +
+                        // Convert camelCase to hyphen-ated key:
+                        key.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase();
+                    if (clone.attr(dataAttributeName)) {
                         if (that._isRegExpOption(key, value)) {
                             value = that._getRegExp(value);
                         }
