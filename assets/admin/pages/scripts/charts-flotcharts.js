@@ -898,6 +898,18 @@ var ChartsFlotcharts = function() {
                 });
             }
 
+            // DONUT
+            if ($('#donut4').size() !== 0) {
+                $.plot($("#donut5"), data, {
+                    series: {
+                        pie: {
+                            innerRadius: 0.5,
+                            show: true
+                        }
+                    }
+                });
+            }
+
             // INTERACTIVE
             if ($('#interactive').size() !== 0) {
                 $.plot($("#interactive"), data, {
