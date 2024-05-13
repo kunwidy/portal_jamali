@@ -27,6 +27,9 @@
 .mb-40{
 	margin-bottom: 40px;
 }
+.mb-60{
+	margin-bottom: 50px;
+}
 .mt-1{
 	margin-top: 15px !important;
 }
@@ -619,6 +622,10 @@ h3.rekap-title{
 	color: #fff; }
 	.page-footer .page-footer-inner a{
 		color: #62d2e6; }
+		
+		.bg-soft1{
+			background: #f3f8ff;
+		}
 
 /* MONITOR SERVER */
 
