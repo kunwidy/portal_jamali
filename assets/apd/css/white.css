@@ -18,20 +18,20 @@ Page Header
   /* Dark version */
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle > i {
-  color: #79869a;
+  color: #14A2BA;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle .badge.badge-default {
   background-color: #00B2BE;
   color: #ffffff;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle:hover {
-  background-color: #3f4f62;
+  background-color: #125D72;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-toggle:hover > i {
   color: #a4aebb;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle {
-  background-color: #3f4f62;
+  background-color: #125D72;
 }
 .page-header.navbar .top-menu .navbar-nav > li.dropdown.open .dropdown-toggle > i {
   color: #a4aebb;

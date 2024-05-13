@@ -615,8 +615,10 @@ h3.rekap-title{
 	}
 	.page-footer{
 		background: #115D72;}
-  .page-footer .page-footer-inner {
+    .page-footer .page-footer-inner {
 	color: #fff; }
+	.page-footer .page-footer-inner a{
+		color: #62d2e6; }
 
 /* MONITOR SERVER */
 
