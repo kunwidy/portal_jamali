@@ -285,7 +285,7 @@ Website: http://quadraninovasi.id/
                             </ul>
                             <div class="page-toolbar">
                                 <div class="btn-group pull-right" style="margin-top: 5px;">
-                                    <span id="date" class="text-yellow">Jum'at, 10 Mei 2024</span> <span id="clock" class="text-yellow">07:31:01 </span>
+                                    <span id="date">Jum'at, 10 Mei 2024</span> | <span id="clock">07:31:01 </span>
                                 </div>
                             </div>
                         </div>
@@ -322,6 +322,15 @@ Website: http://quadraninovasi.id/
                                     </div>
                                     <div class="portlet-body">
                                         <div class="tab-content">
+                                            <form class="form-inline" role="form">
+                                                <div class="form-group">
+                                                    <label class="sr-only" for="exampleInputEmail2">Gardu</label>
+                                                    <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter gardu">
+                                                </div>
+                                                <button type="submit" class="btn btn-info">Search</button>
+                                            </form>
+                                            <hr/>
+
                                             <div class="tab-pane active" id="portlet_tab1">
                                                 <div class="tabbable-line">
                                                     <ul class="nav nav-tabs">
@@ -425,17 +434,26 @@ Website: http://quadraninovasi.id/
                                                                     </tbody>
                                                                 </table>
                                                             </div>
-                                                            <!--pagination-->
-                                                            <ul class="pager">
-                                                                <li class="previous disabled">
-                                                                    <a href="#">
-                                                                    ← Prev </a>
-                                                                </li>
-                                                                <li class="next">
-                                                                    <a href="#">
-                                                                    Next → </a>
-                                                                </li>
-                                                            </ul>
+                                                            <!--action-->
+                                                            <div class="row">
+                                                                <div class="col-xs-6">
+                                                                    <ul class="pagination pagination-sm">
+                                                                        <li class="disabled">
+                                                                            <a href="#">
+                                                                                <span aria-hidden="true" class="icon-control-rewind"></span> </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                <span aria-hidden="true" class="icon-control-forward"></span> </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="col-xs-6">
+                                                                    <div class="text-right mt-10">
+                                                                        <button type="button" class="btn green btn-sm"><span aria-hidden="true" class="icon-doc"></span> Export</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                         <div class="tab-pane" id="overview_2">
                                                             2rtrtrtr
@@ -465,6 +483,42 @@ Website: http://quadraninovasi.id/
                             </div>
 
                             <div class="col-md-6">
+                                <!--global stats-->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="dashboard-stat blue-chambray">
+                                            <div class="visual">
+                                                <i class="fa fa-bar-chart-o fa-icon-medium"></i>
+                                            </div>
+                                            <div class="details">
+                                                <div class="number">
+                                                     121
+                                                </div>
+                                                <div class="desc">
+                                                     Total RTU
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <div class="dashboard-stat blue-chambray">
+                                            <div class="visual">
+                                                <i class="fa fa-bar-chart-o fa-icon-medium"></i>
+                                            </div>
+                                            <div class="details">
+                                                <div class="number">
+                                                     85
+                                                </div>
+                                                <div class="desc">
+                                                     Total OOP
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--pie charts-->
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="portlet box mb-0">
@@ -558,6 +612,14 @@ Website: http://quadraninovasi.id/
                                                 </ul>
                                             </div>
                                             <div class="portlet-body">
+                                                <form class="form-inline" role="form">
+                                                    <div class="form-group">
+                                                        <label class="sr-only" for="exampleInputEmail2">Gardu</label>
+                                                        <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Enter gardu">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-danger">Search</button>
+                                                </form>
+                                                <hr/>
                                                 <div class="tab-content">
                                                     <div class="tab-pane active" id="portlet_tab1">
                                                         <div class="tabbable-line">
@@ -662,17 +724,28 @@ Website: http://quadraninovasi.id/
                                                                             </tbody>
                                                                         </table>
                                                                     </div>
-                                                                    <!--pagination-->
-                                                                    <ul class="pager">
-                                                                        <li class="previous disabled">
-                                                                            <a href="#">
-                                                                            ← Prev </a>
-                                                                        </li>
-                                                                        <li class="next">
-                                                                            <a href="#">
-                                                                            Next → </a>
-                                                                        </li>
-                                                                    </ul>
+
+                                                                    <!--action-->
+                                                                    <div class="row">
+                                                                        <div class="col-xs-6">
+                                                                            <ul class="pagination pagination-sm">
+                                                                                <li class="disabled">
+                                                                                    <a href="#">
+                                                                                        <span aria-hidden="true" class="icon-control-rewind"></span> </a>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="#">
+                                                                                        <span aria-hidden="true" class="icon-control-forward"></span> </a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <div class="col-xs-6">
+                                                                            <div class="text-right mt-10">
+                                                                                <button type="button" class="btn green btn-sm"><span aria-hidden="true" class="icon-doc"></span> Export</button>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    
                                                                 </div>
                                                                 <div class="tab-pane" id="overview_2">
                                                                     2rtrtrtr
