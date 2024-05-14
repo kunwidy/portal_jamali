@@ -659,18 +659,7 @@ var ChartsFlotcharts = function() {
                 $.plot($("#pie_chart_2"), data, {
                     series: {
                         pie: {
-                            show: true,
-                            radius: 1,
-                            label: {
-                                show: true,
-                                radius: 1,
-                                formatter: function(label, series) {
-                                    return '<div style="font-size:8pt;text-align:center;padding:2px;color:white;">' + label + '<br/>' + Math.round(series.percent) + '%</div>';
-                                },
-                                background: {
-                                    opacity: 0.8
-                                }
-                            }
+                            show: true
                         }
                     },
                     legend: {
@@ -684,18 +673,7 @@ var ChartsFlotcharts = function() {
                 $.plot($("#pie_chart_3"), data, {
                     series: {
                         pie: {
-                            show: true,
-                            radius: 1,
-                            label: {
-                                show: true,
-                                radius: 3 / 4,
-                                formatter: function(label, series) {
-                                    return '<div style="font-size:8pt;text-align:center;padding:2px;color:white;">' + label + '<br/>' + Math.round(series.percent) + '%</div>';
-                                },
-                                background: {
-                                    opacity: 0.5
-                                }
-                            }
+                            show: true
                         }
                     },
                     legend: {
